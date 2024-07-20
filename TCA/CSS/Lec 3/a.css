@@ -1,0 +1,56 @@
+#backg
+{
+    background-image: url("Background.png");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;
+
+    background-color: blue;
+    color: white;
+
+    background: url("Background.png") no-repeat center ;
+}
+
+
+
+
+
+
+/*
+To change background color -
+#backg
+{
+    background-color: aqua;
+}
+
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;   //Horizontally Repeats Image
+    background-repeat: repeat-y;   //Vertically Repeats Image
+    background-repeat: no-repeat;  //Not Repeats Image
+
+    background-size: cover;            //Covers Image to full web page 
+    background-position: right top;    //Gives position to at right top
+    background-position: right bottom;
+    background-position: center;
+    background-position: center top;
+    background-position: center bottom;
+
+    background-position: 20px 150px;   //To give position in pixels
+    background-position: 20% 50%;      //To give position in percentage
+
+    background-attachment: scroll;     //To show bg image scrollable with text
+    background-attachment: fixed;      //To show bg image fixed nd only text is scrollable
+
+
+Q. How to keep image fixed at center 
+    #backg
+{
+    background-image: url("Background.png");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+*/

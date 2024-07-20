@@ -1,0 +1,34 @@
+/*Using Element Selector*/
+
+h1
+{
+    color: red;
+    font-size: 50px;
+}
+
+/*Using ID Selector*/
+
+#abc
+{
+    color: green;
+    font-size: 40px;
+}
+#pqr
+{
+    color: blue;
+    font-size: 30px;
+}
+
+/*Using Class Selector*/
+
+.lmn
+{
+    color: purple;
+    font-size: 20px;
+}
+
+.xyz
+{
+    background-color: yellow;
+    font-style: italic;
+}

@@ -1,0 +1,32 @@
+.ppp
+{
+    background-color: yellow;
+    display: flex;
+    height: 400px;
+}
+
+.ccc
+{
+    background-color: orange;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+
+    text-align: center;
+    color: white;
+}
+
+#one
+{
+    align-self: flex-start;
+}
+
+#two
+{
+    align-self: center;
+}
+
+#three
+{
+    align-self: flex-end;
+}

@@ -1,0 +1,231 @@
+Part 1 :
+
+.ppp
+{
+    background-color: yellow;
+    padding: 20px;
+    /* display: inline-grid; */
+    display: grid;
+
+    /* grid-template-columns: 200px 500px 200px; */
+    /* grid-template-columns: 20% 30% auto 300px; */
+    grid-template-columns: auto auto auto;
+}
+
+.ccc
+{
+    background-color: rgb(216, 40, 75);
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+Part 2 :
+
+.ppp
+{
+    background-color: yellow;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    grid-template-rows: 100px 200px auto;
+
+    /* Pratyek div sutte sutte kr */
+    grid-column-gap: 30px;
+    grid-row-gap: 50px;
+
+    /* div theva thevi --> Horizontal Allignment */
+    justify-content: center;
+    justify-content: start;
+    justify-content: end;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.ccc
+{
+    background-color: rgb(216, 40, 75);
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+Part 3 :
+
+.ppp
+{
+    background-color: yellow;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    /* Pratyek div sutte sutte kr */
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+    /* div theva thevi --> Vertical Allignment */
+    height: 600px;
+    
+    align-content: start;  
+    align-content: center;  
+    align-content: end;
+    align-content: space-around;
+    align-content: space-between;  
+}
+
+.ccc
+{
+    background-color: rgb(216, 40, 75);
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+Part 4 :
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+ 
+    <div class="ppp">
+        <div class="ccc" id="one"> One </div>
+        <div class="ccc" id="two"> Two </div>
+        <div class="ccc"> Three </div>
+        <div class="ccc"> Four </div>
+        <div class="ccc"> Five </div>
+        <div class="ccc"> Six </div>
+        <div class="ccc"> Seven </div>
+        <div class="ccc"> Eight </div>
+        <div class="ccc" id="nine"> Nine </div>
+    </div>   
+    
+</body>
+</html>
+
+.ppp
+{
+    background-color: yellow;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    /* Pratyek div sutte sutte kr */
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+    /* div theva thevi --> Vertical Allignment */
+    height: 600px;
+
+    align-content: center;  
+}
+
+.ccc
+{
+    background-color: rgb(216, 40, 75);
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Header */
+#one
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+/* Footer */
+#nine
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#two
+{
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+Part 5 :
+
+.ppp
+{
+    background-color: yellow;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    /* Pratyek div sutte sutte kr */
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+
+    /* div theva thevi --> Vertical Allignment */
+    height: 100vh;
+
+    align-content: top;  
+}
+
+.ccc
+{
+    background-color: rgb(216, 40, 75);
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Header */
+#one
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+/* Footer */
+#nine
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#two
+{
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+
+#three
+{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    margin-bottom: 30px;
+}
+
+#four
+{
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+
+#five
+{
+    grid-row-start: 4;
+    grid-row-end: 6;
+}

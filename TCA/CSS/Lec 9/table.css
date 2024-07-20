@@ -1,0 +1,41 @@
+caption
+{
+    border: 1px solid black;
+    color: rgb(43, 115, 223);
+    background-color: aqua;
+    font-weight: bold;
+    font-size: larger;
+    padding: 5px;
+}
+
+table
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* border-collapse: separate; */
+    width: 500px;
+    text-align: center;
+    background-color: rgb(168, 243, 217);
+
+    /* empty-cells: hide; */
+}
+
+th
+{
+    border: 1px solid black;
+    height: 40px;
+    background-color: aquamarine; 
+}
+
+td
+{
+    border: 1px solid black; 
+    height: 30px;
+    font-weight: bold;
+}
+
+#abc:hover 
+{
+    background-color: lightcyan;
+    color: rgb(68, 68, 228);
+}

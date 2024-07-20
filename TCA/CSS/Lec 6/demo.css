@@ -1,0 +1,61 @@
+html
+{
+    font-size: 50px;
+}
+
+#parent
+{
+    font-size: 40px;
+    border: 1px solid black;
+    width: 50vw;
+    height: 50vw;
+}
+
+#child
+{
+    font-size: 50%;
+    border: 1px solid red;
+    width: 50%;
+    height: 30%;
+}
+
+
+
+/*
+    Units -
+        1. Absolute
+        2. Relative
+
+    Absolute :
+        px
+        cm
+        mm
+        in
+        pt --> 1inch = 72pt
+        pc --> 1pc = 12pt
+
+    Relative : 
+        em(element)
+        rem(root element) 
+        vw
+        vh
+        
+        font-size: 0.5em;
+        font-size: 2em;
+
+    % -->
+        #parent
+        {
+          font-size: 40px;
+          border: 1px solid black;
+          width: 400px;
+        }
+
+        #child
+        {
+          font-size: 50%;
+          border: 1px solid red;
+          width: 50%;
+        }
+
+*/

@@ -1,0 +1,82 @@
+div+a
+{
+    color: red;
+}
+
+/* 
+
+---------- Types of Selectors ----------
+
+#abc
+{
+    color: red;
+}
+
+.pqr
+{
+    color: red;
+}
+
+a
+{
+    color: red;
+}
+
+a,h1
+{
+    color: red;
+}
+
+a[href="https://www.technocompacademy.com/]
+{
+    color: red;
+}
+
+input[type="text"]
+{
+    background-color: red;
+}
+
+a:hover
+{
+    color: red;
+}
+ 
+p::first-line
+{
+    color: red;
+}
+
+Universal Selector -->
+
+*{
+    color: red;
+}
+
+div a
+{
+    color: red;
+}
+
+div che khare direct child red kr -->
+
+div>a
+{
+    color: red;
+}
+
+div chya sibilings paiki <a> la red kr -->
+
+div~a
+{
+    color: red;
+}
+
+div nntr je je <a> tag immediately yetat tyanach red kr -->
+div+a
+
+{
+    color: red;
+}
+
+*/

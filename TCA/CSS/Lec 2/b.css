@@ -1,0 +1,32 @@
+h1
+{
+    color: red;
+}
+
+.pqr
+{
+    color: blue;
+}
+
+#abc
+{
+    color: brown;
+    font-size: 80px;
+}
+
+#abc
+{
+    color: green;;
+}
+
+body
+{
+    background-color: aquamarine;
+}
+
+/*
+    Selectors are having Priority
+       ID Selector
+       Class Selector
+       Element Selector
+*/

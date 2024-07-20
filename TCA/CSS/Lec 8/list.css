@@ -1,0 +1,33 @@
+#abc
+{
+    list-style: disc;
+}
+
+#pqr
+{
+    list-style: decimal;
+}
+
+li
+{
+    border: 1px solid black;
+    list-style-position: inside;
+    background-color: azure;
+}
+
+/*
+    list-style: circle;
+    list-style: square;
+    list-style: disc;
+
+    list-style: decimal-leading-zero;
+    list-style: decimal;
+    list-style: upper-alpha;
+    list-style: lower-alpha;
+    list-style: lower-roman;
+    list-style: upper-roman;
+
+    list-style-position: inside;
+    list-style-position: outside;
+
+*/

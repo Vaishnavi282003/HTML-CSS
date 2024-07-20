@@ -1,0 +1,21 @@
+#abc
+{
+    background-color: aqua;
+    width: 800px;
+    height: 300px;
+}
+
+#pqr
+{
+    background-color: skyblue;
+    width: 800px;
+    height: 300px;
+
+    padding: 50px;
+    border: 10px solid rgb(6, 54, 132);
+    box-sizing: border-box;
+    /* box-sizing: content-box; */
+    overflow: auto;
+    text-align: justify;
+
+}

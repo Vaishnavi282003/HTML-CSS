@@ -1,0 +1,20 @@
+#abc
+{
+    color: rgb(3, 184, 79);
+    background-color: yellow;
+}
+
+h1
+{
+    /* color: green; */
+
+    color: initial;
+    background-color: inherit;
+}
+
+a
+{
+    color: inherit;
+
+    /* color: initial; */
+}

@@ -1,0 +1,24 @@
+#abc
+{
+    border: 2px solid black;
+    width: 500px;
+    height: 100px;
+    cursor: auto;
+}
+
+/*
+
+    cursor: all-scroll;
+    cursor: pointer;
+    cursor: cell;
+    cursor: e-resize;
+    cursor: grab;
+    cursor: help;
+    cursor: not-allowed;
+    cursor: progress;
+    cursor: zoom-in;
+    cursor: zoom-out;
+    cursor: crosshair;
+    cursor: wait;
+
+*/

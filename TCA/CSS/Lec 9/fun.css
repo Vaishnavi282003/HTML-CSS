@@ -1,0 +1,14 @@
+:root
+{
+    --bg-color: rgb(226, 43, 211);
+    --fg-color: rgb(205, 255, 251);
+}
+
+
+
+div
+{
+    height: 500px;
+    background-color: var(--bg-color);
+    color: var(--fg-color);
+}

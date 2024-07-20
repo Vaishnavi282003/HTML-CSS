@@ -1,0 +1,26 @@
+#abc
+{
+    width: 700px;
+    height: 300px;
+    overflow: auto;
+    border: 1px solid red;
+    background-color: antiquewhite;
+    padding: 5px;
+    text-align: justify;
+    resize: vertical;
+}
+
+/* 
+    overflow: visible; 
+    overflow: hidden;
+    overflow: auto;
+    overflow-x: scroll;
+    overflow-y: scroll;
+
+    resize: both;
+    resize: none;
+    resize: horizontal;
+    resize: vertical;
+
+*/
+

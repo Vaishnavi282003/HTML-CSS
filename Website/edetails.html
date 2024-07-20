@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Event | Details </title>
+    <link rel="stylesheet" href="edetails.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="title"> Event Details </div>
+        <form action="#">
+            <div class="info">
+                <div class="input-box">
+                    <span class="details"> Full Name </span>
+                    <input type="text" name="Name" placeholder="Enter your name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details"> Email ID </span>
+                    <input type="text" name="Email"placeholder="Enter your mail ID" required>
+                </div>
+                <div class="input-box">
+                    <span class="details"> Phone Number </span>
+                    <input type="text" name="Number" placeholder="Enter your number" required>
+                </div>
+                <div class="input-box">
+                    <span class="details"> Event Selection </span>
+                    <select name="types" id="Event" required>
+                        <option value="" disabled selected hidden> Select event type you want... </option>
+                        <option value="Birthday"> Birthday </option>
+                        <option value="Wedding"> Wedding </option>
+                        <option value="Family Events"> Family Events </option>
+                        <option value="Anniversaries"> Anniversaries </option>
+                        <option value="Reception"> Reception </option>
+                        <option value="Theme Parties"> Theme Parties </option>
+                        <option value="Meetings"> Meetings </option>
+                        <option value="Press Conference"> Press Conference </option>
+                        <option value="Product Launches"> Product Launches </option>
+                        <option value="Trade Shows"> Trade Shows </option>
+                    </select>
+                </div>
+                <div class="input-box">
+                    <span class="details"> Name Of Guests </span>
+                    <input type="text" name="Guest" maxlength="100" placeholder="Enter guest name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details"> Food Preferences </span>
+                    <select name="preference" id="food" required>
+                        <option value="" disabled selected hidden> Select your preferred food type... </option>
+                        <option value="Vegeterian"> Vegeterian </option>
+                        <option value="Non-Vegeterian"> Non-Vegeterian </option>
+                        <option value="Gluten Free"> Gluten Free </option>
+                        <option value="Vegan"> Vegan </option>
+                    </select>
+                </div>
+                <div class="button">
+                    <input type="submit" name="Submit" value="Confirm Your Order">
+                </div>
+        </form>
+    </div>
+    
+</body>
+</html>
